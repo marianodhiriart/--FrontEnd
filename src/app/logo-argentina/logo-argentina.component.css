@@ -1,0 +1,90 @@
+
+
+/*barra de navegacion*/
+.navbar.navbar-expand-lg.bg-secondary{
+    background-color: rgba(159, 159, 166, 0.883)!;
+    
+}
+.list-group{
+    --bs-list-group-bg: transparent;
+    
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    /*color: var(--bs-list-group-color);*/
+    color: #505050;
+    /* text-decoration: none; */
+    background-color: var(--bs-list-group-bg);
+    /* border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color); */
+    border:none;
+  }
+  .fa-brands.fa-facebook.fa-brands:hover,
+  .fa-solid.fa-instagram:hover,
+  .fa-brands.fa-twitter:hover,
+  .fa-solid.fa-comment:hover,
+  .fa-solid.fa-user-lock:hover,
+  .fa-solid.fa-user:hover{
+    color: #f7a61a;
+  }
+   
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-twitter.fa-2xl
+    {
+color: rgb(66, 66, 73);
+}
+i.fa-brands.fa-facebook.fa-2xl:hover{
+    color:blue;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color:rgb(229, 86, 117);
+}
+i.fa-brands.fa-twitter.fa-2xl:hover{
+    color:rgb(51, 77, 227);
+}
+
+
+.list-group{
+   --darkreader-bg--bs-list-group-bg: transparent;
+ }
+section.about{
+    margin-top: 05rem;
+}
+
+
+.menu
+{
+    background: #333;
+}
+
+.btn-menu
+{
+    color: #FFF;
+    font-size: 25px;
+}
+
+.nav-link
+{
+    color: #FFF;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.list-group-item {
+
+    /* border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color); */
+    border:none;
+}
+
+.log{
+    float: right;
+    margin: 0 21% 0 0;
+}
+
+    

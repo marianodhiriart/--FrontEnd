@@ -1,0 +1,125 @@
+
+#Habilidades{
+    text-align: center;
+        margin: auto;
+}
+.imgHabilidadesCentrado{
+             justify-content: center;
+         display: flex;
+    border-style: solid;
+    
+
+}
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #30336b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.outer-Container h1 {
+  font-weight: 400;
+  font-family: "Style Script", cursive;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.iner-wrapper {
+  padding: 30px;
+  background-color: #130f40;
+  width: 70vw;
+  height: auto;
+  -webkit-box-shadow: 1px 3px 8px 0px #000000d4;
+  box-shadow: 1px 3px 8px 0px #000000d4;
+}
+.skill-bar .info span {
+  display: inline-block;
+  margin: 2px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #95afc0;
+}
+
+.progress-bar {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0px;
+  width: 100%;
+  height: 8px;
+  background-color: #ffffff1a;
+  border-radius: 10px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+  -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.progress-bar span {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+  -webkit-animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@-webkit-keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.html span {
+  width: 89%;
+}
+.css span {
+  width: 85%;
+}
+.javascript span {
+  width: 70%;
+}
+.bootstrap span {
+  width: 80%;
+}

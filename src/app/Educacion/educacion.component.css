@@ -1,0 +1,31 @@
+#Educacion{
+    text-align: initial;
+        margin: 4rem;
+           margin-bottom: 2rem;
+    }
+.imgEducacionIzquierda{
+        justify-content: left;
+ border-style: solid;
+    }
+
+ .boton{
+    margin-left: 70%;
+    margin-top: -2%;
+ }
+
+ .eliminar{
+    margin-right: -50%;
+ }
+
+ .titulo{
+    font-weight: 900;
+    
+ }
+
+.fecha{
+    margin-left: 2%;
+}
+
+.agregar{
+   margin-left: 95%;
+}

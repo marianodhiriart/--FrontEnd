@@ -1,0 +1,27 @@
+
+
+
+  .bio-image-col{
+    align-items:center;
+  }
+  
+  .bio-title{
+    text-align: center;
+    font-size:.75em;
+  }
+  
+  .rounded-circle{
+    border: 3px solid #0b0169bf;
+    box-shadow: 1px 6px 10px 2px #010169bf;
+    -webkit-box-shadow: 1px 6px 10px 2px #0118afbf;
+    -moz-box-shadow: 1px 6px 10px 2px #0401afbf;
+  }
+
+  .nombre{
+    font-weight: 900;
+    font-size: 4vh;
+  }
+
+  svg{
+    float: right;
+  }

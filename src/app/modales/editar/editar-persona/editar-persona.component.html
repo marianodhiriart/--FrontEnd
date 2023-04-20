@@ -1,0 +1,15 @@
+<!-- modal editar -->
+<div id="modal">
+    <form [formGroup]="form" (ngSubmit)="enviar($event)">
+        <div id="close">
+      <button type="button" class="btn-close btn-close-white" aria-label="Close"  routerLink=""> </button>
+    </div>
+        
+      <h4>Modificar</h4>
+        <input name="Apellido" placeholder="Apellido" formControlName="apellido" [(ngModel)]="personas.apellido" class="name"/>
+        <input name="Edad" type="number" placeholder="Edad" formControlName="edad" [(ngModel)]="personas.edad" class="name"/>
+        <input name="Nombre" type="text" placeholder="Nombre" formControlName="nombre" [(ngModel)]="personas.nombre" class="name"/>
+        <input name="SobreMi" placeholder="Sobre mi" formControlName="sobreMi" [(ngModel)]="personas.sobreMi" class="name"/>
+        <input name="submit" class="btn" type="submit" value="Enviar" />
+      </form>
+    </div>

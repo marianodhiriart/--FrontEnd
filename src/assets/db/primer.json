@@ -1,0 +1,74 @@
+{
+"persona":[
+    {
+     "id":"1",
+    "nombre":"Mariano",
+    "apellido": "d'Hiriart",
+    "edad": "41",
+    "sobreMi":"¡Hola! Yo soy Mariano d'Hiriart. Soy musico baterista, paisajista, instalador de riego automatizado y abogado. Mi meta es aprender y crecer profesionalmente como Desarrollador Full Stack. Busco formarme, estar actualizado, y poner en practica lo aprendido. Soy una persona curiosa, creativa, empática, en busqueda constante del conocimiento y las nuevas experiencias. Me gustaría ser parte de un equipo y proyectos que me permitan seguir desarrollándome como profesional, mejorar mis habilidades  y colaborar para lograr los objetivos."
+    }
+],
+
+"trabajos": [
+    {
+    "id":"1",    
+"institucion": "abogado",
+"inicio": "04-04-2011",
+"final": "Actualidad",
+"descripcion": "Abogado de hace mas de 15 años en diferentes ramas del derecho, Actualmente desarrollo actividades de Estrategias en recupero de Deudas de empresas privadas"
+
+    },
+
+{
+"id":"2",
+
+"institucion": "Diseñador de Riego",
+"inicio": "04-04-2021",
+"final": "Actualidad",
+"descripcion":  "Realizo diseño de riego de jardines en casa de familias, campos y negocios, Mido pluviometrias, bombas, aspersores, superficies,etc"
+} 
+
+],
+
+ "Educacion": [
+    
+{
+"id":"1",    
+"titulo": "Desarrollador full stack junior",
+"institucion": "Argentina Programa",
+"inicio": "04-04-2021",
+"final": "Actualidad",
+"descripcion": "Tuve la suerte de ingresar al Programa Argentina Programa, realizar un primer cursado por 3 meses de Se Programar y concluir con el curso de Yo programo logrando obtener el certificado de Desarrollador Full Stack Junior"
+
+},
+
+{
+"id":"2",   
+"titulo": "Diseñador de Riego Automatizado",
+"institucion": "Diseñador de Riego Automatizado",
+"inicio": "04-04-2020",
+"final": "10-12-2020",
+"descripcion": "Curso realizado en Capital Federal - Agentina, donde logre el Certificado de Disañador de Riego Automatizado"
+
+},
+{
+"id":"3",   
+"titulo": "Paisajista",
+"institucion": "Postgrado en Paisajismo",
+"inicio": "04-04-2019",
+"final": "10-12-2019",
+"descripcion": "Carrera de Postgrado realizado en la Universidad de Arquitectura de la provincia de Tucuman, que me incursiono en el manejo, apreciacion y diseño del Paisajismo y la naturaleza en su conjunto."
+},
+
+{
+    "id":"4",   
+    "titulo": "abogado",
+    "institucion": "Universidad Nacional de Tucuman",
+    "inicio": "04-04-1999",
+    "final": "10-12-2006",
+    "descripcion": "Culmine la carrera de Abogacia en la Universidad Nacional de Tucuman, donde comence a introducirme en la programacion estudiando mi primer curso de Lex Doctor (base de datos de gestiones de estudios Juridicos)"
+}
+
+
+ ]
+}

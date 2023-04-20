@@ -1,0 +1,16 @@
+<!-- modal editar -->
+<div id="modal">
+  <form [formGroup]="form" (ngSubmit)="enviar($event)">
+      <div id="close">
+    <button type="button" class="btn-close btn-close-white" aria-label="Close"  routerLink=""> </button>
+  </div>
+      
+    <h4>Modificar</h4>
+      <input name="Descripcion" placeholder="modifica la descripcion" formControlName="descripcion" [(ngModel)]="trabajos.descripcion" class="name"/>
+      <input name="Inicio" type="date" placeholder="Fecha de inicio" formControlName="inicio" [(ngModel)]="trabajos.inicio" class="name"/>
+      <input name="PeriodoFinal" type="date" placeholder="Fecha de fin" formControlName="fin" [(ngModel)]="trabajos.fin" class="name"/>
+      <input name="Institucion" placeholder="institucion" formControlName="institucion" [(ngModel)]="trabajos.institucion" class="name"/>
+      <input name="submit" class="btn" type="submit" value="Enviar" />
+    </form>
+  </div>
+

@@ -1,0 +1,24 @@
+<form  [formGroup]="form" (ngSubmit)="enviar($event)">
+    <div class="mb-3">
+      <label for="descripcion" class="form-label">Descripcion</label>
+      <input type="text" class="form-control" id="descripcion" aria-describedby="descripcionHelp" [(ngModel)]="descripcion" formControlName="descripcion">
+      <div id="descripcionHelp" class="form-text">Coloca acá la descripcion. Incluye detalles como los conocimientos adquiridos, ciudad y otros detalles relevantes.</div>
+    </div>
+    <div class="mb-3">
+      <label for="inicio" class="form-label">Fecha de inicio.</label>
+      <input type="date" class="form-control" id="inicio" [(ngModel)]="inicio" formControlName="inicio">
+    </div>
+    <div class="mb-3">
+        <label for="fin" class="form-label">Fecha de finalización.</label>
+        <input type="date" class="form-control" id="fin" [(ngModel)]="fin" formControlName="fin">
+      </div>
+      <div class="mb-3">
+        <label for="institucion" class="form-label">Nombre de la institucion</label>
+        <input type="text" class="form-control" id="institucion" [(ngModel)]="institucion" formControlName="institucion">
+      </div>
+    <div class="mb-3">
+        <label class="form-label" for="titulo">Titulo obtenido.</label>
+      <input type="text" class="form-control" id="titulo" [(ngModel)]="titulo" formControlName="titulo">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

@@ -1,0 +1,76 @@
+
+
+<section id="Educacion"> 
+
+<div class="container justify-content-center">
+  <h3 class="titulo-centrado">Education</h3>
+  <br>
+  <br>
+
+ <!-- boton para agregar -->
+ <div *ngIf="logued == true">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16" class="agregar"
+  data-bs-toggle="modal" data-bs-target="#modal-agregar-educacion">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+  </svg>
+</div>
+
+<!-- modal agregar -->
+<div class="modal" tabindex="-1" id="modal-agregar-educacion">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Agregar educacion.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-agregar-educacion></app-agregar-educacion>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div *ngFor="let educacion of educaciones">
+   
+    <div class="education-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+     <strong class="titulo">{{educacion.titulo}}</strong>
+      <div class="row fecha">{{educacion.inicio}}/{{educacion.fin}}</div> 
+        </div>  
+        
+        <!-- botones para eliminar y editar -->
+        <div class="boton" *ngIf="logued == true">
+        <button type="button"  class="btn-close eliminar" aria-label="Close" (click)="eliminar(educacion.id)"></button>
+        
+        <button type="button" class="btn btn-outline-primary boton" 
+         [routerLink]="['editarEducacion/',educacion.id]">Editar</button>
+      </div>
+          <div class="education col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
+            
+            <div  class="row justify-content-center">
+            <p><i>
+        <strong>{{educacion.institucion}}</strong><br>
+        {{educacion.descripcion}}
+      
+          </i></p>
+          <hr>
+        </div>
+    </div>
+  </div>
+  <hr>
+</div>  
+
+
+
+
+  
+  
+
+  
+
+  

@@ -1,0 +1,42 @@
+#Trabajos{
+    text-align: end;
+    margin: 5rem;
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+    
+    }
+
+    #modal-agregar-trabajo, #modal-editar-trabajo{
+        text-align: start;
+    }
+
+
+.imgTrabajosDerecha{
+    justify-content: end;
+display: flex;
+margin: 4rem;
+margin-top: 1rem;
+border-style: solid;
+
+}
+
+.titulo-fecha{
+    display: inline-block;
+}
+
+.titulo_trabajo{
+    font-weight: 900;
+}
+
+.boton{
+    margin-right: 90%;
+}
+
+button{
+    margin-right: 7%;
+}
+
+.agregar{
+    margin-right: 98%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,10 @@
+#Proyectos{
+    text-align: center;
+    margin: auto;
+    }
+.imgProyectosCentrado{
+justify-content: center;
+display: flex;
+border-style: solid;
+
+}
