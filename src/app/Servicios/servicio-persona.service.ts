@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ServicioPersonaService {
 
-  url: string = 'http://localhost:8080/persona';
+  url: string = 'https://lengthy-vita-marianodhiriart.koyeb.app/persona';
 
   constructor(private http:HttpClient) { }
 
