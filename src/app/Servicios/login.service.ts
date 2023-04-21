@@ -13,7 +13,7 @@ export class LoginService {
 
   login(obj:any){
 
-    if(obj.email == this.mail && obj.contraseña == obj.contraseña){
+    if(obj.email == this.mail && obj.contraseña == this.contraseña){
       window.sessionStorage.setItem("logueado", "true");
       alert('Usuario logueado.')
       window.location.reload();
