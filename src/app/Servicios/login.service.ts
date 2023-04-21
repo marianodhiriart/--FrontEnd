@@ -7,13 +7,13 @@ export class LoginService {
 
   logueado: string = sessionStorage.getItem("logueado");
   mail: string = 'marianodhiriart@hotmail.com';
-  contraseña: number = 12345;
+  contraseña: string = '12345';
 
   constructor() { }
 
   login(obj:any){
 
-    if(obj.email == this.mail && obj.contraseña == this.contraseña){
+    if(obj.email == this.mail && obj.password == this.contraseña){
       window.sessionStorage.setItem("logueado", "true");
       alert('Usuario logueado.')
       window.location.reload();
