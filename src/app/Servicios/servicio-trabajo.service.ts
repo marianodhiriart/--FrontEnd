@@ -8,7 +8,7 @@ import { Trabajo } from '../entidades/trabajo';
 })
 export class ServicioTrabajoService {
 
-  url: string = "http://localhost:8080/trabajo";
+  url: string = "https://lengthy-vita-marianodhiriart.koyeb.app/trabajo";
 
   constructor(private http:HttpClient) { }
 
