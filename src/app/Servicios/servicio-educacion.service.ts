@@ -8,7 +8,7 @@ import { Educacion } from '../entidades/educacion';
 })
 export class ServicioEducacionService {
 
-  url: string = "http://localhost:8080/educacion";
+  url: string = "https://lengthy-vita-marianodhiriart.koyeb.app/educacion";
 
   constructor(private http:HttpClient) {}
 
